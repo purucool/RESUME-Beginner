@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <STYLE>
+        BODY {
+            BACKGROUND-COLOR: rgb(155, 245, 210);
+
+        }
+
+        .form {
+            BACKGROUND-COLOR: rgb(185, 244, 252);
+            WIDTH: 50%;
+            MARGIN-TOP: 15%;
+            MARGIN-LEFT: 25%;
+            BORDER: 5PX SOLID rgb(147, 239, 246);
+            BORDER-RADIUS: 10PX;
+
+        }
+
+        H1 {
+            margin: auto;
+            margin-top:5px ;
+            margin-bottom:5px ;
+            width: fit-content;
+            PADDING: 2PX;
+            background-color: aquamarine;
+        }
+
+        FORM {
+            PADDING-left:28%;
+            PADDING-top:3%;
+            PADDING-bottom:3%;
+
+        }
+
+        TD {
+            PADDING: 5PX 0;
+        }
+        .submit{
+            position: relative;
+            left:78px;
+            padding: 10px;
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            font-size: 19px;
+        }
+    </STYLE>
+</head>
+
+<body>
+    <DIV class="form">
+        <H1>REGISTRATION FORM</H1>
+        <FORM ACTION="" METHOD="post">
+            <TABLE>
+                <TR>
+                    <TD><LABEL>ROLL_NO</LABEL></TD>
+                    <td>:</td>
+                    <TD><INPUT TYPE="NUMBER" NAME="ROLL_NO"><BR></TD>
+                </TR>
+                <TR>
+                    <TD><LABEL>NAME</LABEL></TD>
+                    <td>:</td>
+                    <TD><INPUT TYPE="TEXT" NAME="NAME"></TD>
+                </TR>
+                <TR>
+                    <TD><LABEL>EMAIL-ID</LABEL></TD>
+                    <td>:</td>
+                    <TD><INPUT TYPE="EMAIL" NAME="EMAILID"></TD>
+                </TR>
+                <TR>
+                    <TD><LABEL>PASSWORD</LABEL></TD>
+                    <td>:</td>
+                    <TD><INPUT TYPE="PASSWORD" NAME="PSWD"></TD>
+                </TR>
+            </TABLE>
+            <div class="submit">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </FORM>
+    </DIV>
+</body>
+
+</html>
